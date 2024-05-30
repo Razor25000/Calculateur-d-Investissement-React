@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header id="header">
         <img src={logo} alt="logo"  />
-        <h1 id="h1">React Investment Calculator</h1>
+      <h1 id="h1">Calculateur d'Investissement React</h1>
     </header>
   )
 }

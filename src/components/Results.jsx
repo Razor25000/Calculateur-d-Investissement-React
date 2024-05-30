@@ -9,11 +9,11 @@ const Results = ({ inputs }) => {
         <table id="result">
             <thead>
                 <tr>
-                    <th>Year</th>
-                    <th>Investment Value</th>
-                    <th>Interest Earned</th>
-                    <th>Total Interest</th>
-                    <th>Investment Capital</th>
+                    <th>Année</th>
+                    <th>Valeur de l'Investissement</th>
+                    <th>Intérêts Gagnés</th>
+                    <th>Intérêts Totaux</th>
+                    <th>Capital Investi</th>
                 </tr>
             </thead>
             <tbody>
