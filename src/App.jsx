@@ -17,11 +17,12 @@ function App() {
       [inputIdentifier]: +newValue,
     }));
   }
+  const inputIsValid = inputs.initialInvestment > 0 && inputs.annualInvestment > 0 && inputs.expectedReturn > 0 && inputs.duration > 0
   return (
     <>
     <Header />
     <UserInput inputs={inputs} onChange={handleChange} />
-    <Results inputs={inputs} />
+    {inputIsValid ? <Results inputs={inputs} /> : <p style={{color: "red", fontSize: "20px",textAlign: "center"}}>Please enter valid inputs</p>}
     </>
   )
 }
